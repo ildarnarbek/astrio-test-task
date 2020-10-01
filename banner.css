@@ -1,0 +1,44 @@
+.sllder-container {
+  position: relative;
+  width: 475px;
+  height: 215px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.arrow {
+  width: 38px;
+  height: 38px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 10px;
+  background-color: #3a3a3a;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+.selected {
+  opacity: 1;
+  transition: opacity 2s linear;
+  visibility: visible;
+}
+.right-arrow {
+  right: 10px;
+}
+.left-arrow {
+  left: 10px;
+}
+img {
+  display: flex;
+  align-self: center;
+}

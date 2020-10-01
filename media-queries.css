@@ -1,0 +1,55 @@
+@media screen and (min-width: 320px) and (max-width: 489px) {
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  button {
+    background-color: #eb5c3e;
+  }
+  .product {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 5px;
+  }
+  product-wrapper {
+    width: 100vw;
+  }
+  .description {
+    display: block;
+    padding: 5px;
+  }
+  .rating-block {
+    position: relative;
+    padding: 10px 2px;
+  }
+  .rate-1,
+  .rate-3,
+  .rate-5 {
+    height: 20px;
+  }
+  .rate-3 {
+    width: 29.5%;
+    left: 40px;
+    background: url("img/StarOrange.png") 20% 50%,
+      url("img/StarOrange.png") 50% 50%, url("img/StarOrange.png") 80% 50%,
+      white;
+    background-repeat: no-repeat;
+  }
+  .rate-1 {
+    width: 10%;
+    left: 52px;
+    background: url("img/StarOrange.png") 50% 50%, white;
+    background-repeat: no-repeat;
+  }
+  .rate-5 {
+    width: 51.5%;
+    left: 24px;
+    background: url("img/StarOrange.png") 13% 50%,
+      url("img/StarOrange.png") 32% 50%, url("img/StarOrange.png") 50% 50%,
+      url("img/StarOrange.png") 69% 50%, url("img/StarOrange.png") 86% 50%,
+      white;
+    background-repeat: no-repeat;
+  }
+}
